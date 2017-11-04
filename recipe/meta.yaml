@@ -1,6 +1,6 @@
 {% set name = "icalendar" %}
-{% set version = "3.11.6" %}
-{% set sha256 = "c4c4f11fa655f677c070a71944e89be32f51ae228ca32582a1f0bd9feaaac9db" %}
+{% set version = "3.11.7" %}
+{% set sha256 = "ecadaec5b5ebbae19640dac65a11e0adeabfeb16fb342c1a853f4a8e520c0e2a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
