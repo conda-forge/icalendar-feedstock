@@ -16,14 +16,16 @@ Python.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/icalendar-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/icalendar-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/icalendar-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/icalendar-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/icalendar-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/icalendar-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/icalendar-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/icalendar-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/icalendar-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/icalendar-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/icalendar-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/icalendar-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/icalendar/badges/version.svg)](https://anaconda.org/conda-forge/icalendar)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/icalendar/badges/downloads.svg)](https://anaconda.org/conda-forge/icalendar)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-icalendar-green.svg)](https://anaconda.org/conda-forge/icalendar) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/icalendar.svg)](https://anaconda.org/conda-forge/icalendar) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/icalendar.svg)](https://anaconda.org/conda-forge/icalendar) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/icalendar.svg)](https://anaconda.org/conda-forge/icalendar) |
 
 Installing icalendar
 ====================
