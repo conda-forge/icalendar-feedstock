@@ -1,6 +1,6 @@
 {% set name = "icalendar" %}
-{% set version = "4.0.3" %}
-{% set sha256 = "07c2447a1d44cbb27c90b8c6a5c98e890cc1853c6223e2a52195cddec26c6356" %}
+{% set version = "4.0.4" %}
+{% set sha256 = "347151cb935f5f2f83d58f6dd8aef8558df69f6c1709f1d2cab2000b36def299" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
