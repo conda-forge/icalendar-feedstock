@@ -1,6 +1,6 @@
 {% set name = "icalendar" %}
-{% set version = "4.0.4" %}
-{% set sha256 = "347151cb935f5f2f83d58f6dd8aef8558df69f6c1709f1d2cab2000b36def299" %}
+{% set version = "4.0.5" %}
+{% set sha256 = "b8ec6d76a23e7d196af97d64361ab37df3840e3f09ccb3ee66b4ba598c94d693" %}
 
 package:
   name: {{ name|lower }}
@@ -36,7 +36,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  summary: 'iCalendar parser/generator'
+  summary: iCalendar parser/generator
   description: |
     The icalendar package is a parser/generator of iCalendar files for use with
     Python.
