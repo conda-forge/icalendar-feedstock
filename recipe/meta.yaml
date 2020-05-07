@@ -1,6 +1,6 @@
 {% set name = "icalendar" %}
-{% set version = "4.0.5" %}
-{% set sha256 = "b8ec6d76a23e7d196af97d64361ab37df3840e3f09ccb3ee66b4ba598c94d693" %}
+{% set version = "4.0.6" %}
+{% set sha256 = "7e6fe7232622abe32d8f54d0936ffcd5a9087198a4c2f1ec1803a7dd9fdd979f" %}
 
 package:
   name: {{ name|lower }}
