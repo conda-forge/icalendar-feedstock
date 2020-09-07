@@ -5,7 +5,7 @@ Home: https://github.com/collective/icalendar
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: iCalendar parser/generator
 
