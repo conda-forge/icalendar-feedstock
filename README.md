@@ -1,11 +1,11 @@
-About icalendar
-===============
+About icalendar-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icalendar-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/collective/icalendar
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icalendar-feedstock/blob/main/LICENSE.txt)
 
 Summary: iCalendar parser/generator
 
