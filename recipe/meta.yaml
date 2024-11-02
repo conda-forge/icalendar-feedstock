@@ -1,6 +1,6 @@
 {% set name = "icalendar" %}
-{% set version = "5.0.13" %}
-{% set sha256 = "92799fde8cce0b61daa8383593836d1e19136e504fa1671f471f98be9b029706" %}
+{% set version = "6.0.0" %}
+{% set sha256 = "7ddf60d343f3c1f716de9b62f6e80ffd95d03cab62464894a0539feab7b5c76e" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -21,11 +21,13 @@ requirements:
     - pip
     - python >=3.6
     - setuptools
+    - hatchling
+    - hatch-vcs
 
   run:
     - python >=3.6
     - python-dateutil
-    - pytz
+    - tzdata
 
 test:
   imports:
