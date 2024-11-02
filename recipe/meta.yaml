@@ -21,11 +21,13 @@ requirements:
     - pip
     - python >=3.6
     - setuptools
+    - hatchling
+    - hatch-vcs
 
   run:
     - python >=3.6
     - python-dateutil
-    - pytz
+    - tzdata
 
 test:
   imports:
