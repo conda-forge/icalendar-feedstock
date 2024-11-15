@@ -1,37 +1,41 @@
 {% set name = "icalendar" %}
 {% set version = "6.0.1" %}
-{% set sha256 = "1ff44825d7b41c3f77eac9e09cc67a770dd3c2377430c23b0eb7d91603088892" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/icalendar-{{ version }}.tar.gz
+  sha256: 1ff44825d7b41c3f77eac9e09cc67a770dd3c2377430c23b0eb7d91603088892
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
     - hatchling
     - hatch-vcs
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - python-dateutil
-    - tzdata
+    - python-tzdata
 
 test:
   imports:
     - icalendar
+  commands:
+    - pip check
+    - icalendar --help
+  requires:
+    - python {{ python_min }}
+    - pip
 
 about:
   home: https://github.com/collective/icalendar
