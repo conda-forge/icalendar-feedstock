@@ -1,7 +1,7 @@
 About icalendar-feedstock
 =========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icalendar-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stuertz-icalendar-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/collective/icalendar
 
@@ -23,8 +23,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5212&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/icalendar-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/stuertz-icalendar-feedstock?branchName=main">
       </a>
     </td>
   </tr>
